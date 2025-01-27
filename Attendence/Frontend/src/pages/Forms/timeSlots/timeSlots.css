@@ -1,0 +1,24 @@
+.time-slot-form-container{
+    background-color: var(--background-2);
+    border-radius: 10px;
+    flex: 1;
+}
+.time-form{
+    width: 100%;
+}
+.time-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.react-select{
+    z-index: 2;
+}
+
+.time-slots{
+    display: flex;
+}

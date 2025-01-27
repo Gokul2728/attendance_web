@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&family=PT+Sans+Narrow:wght@400;700&family=Signika+Negative&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+:root {
+    font-family: "Exo 2", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+    
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    
+  }
+  p{
+    margin: 0;
+    color: var(--text);
+  }
+  h4, h2, h3, b, label, strong, center{
+    color: var(--text);
+  }
+
+  .custom-table b{
+    color: white;
+  }
+ 
+  
+  a {
+    font-weight: 500;
+    text-decoration: inherit;
+  }
+  
+ 
+  /* span{
+    color: black;
+    font-size: 30px;
+  } */
+  
+  * {
+    font-family: "Exo 2", sans-serif;
+    box-sizing: border-box;
+    /* font-family: "Montserrat", sans-serif; */
+
+  }
+  
+  label{
+    font-family: "Exo 2";
+    /* font-family: "Montserrat", sans-serif; */
+
+  }
+  body {
+    margin: 0;
+    font-family: "Exo 2", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
+
+  }
+  
+  /* Style the thin scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    /* Adjust the width as desired */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--background-2);
+    /* Color of the scrollbar track */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--background-1);
+    /* Color of the scrollbar handle */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d4d4d44b;
+    /* Color of the scrollbar handle on hover */
+  }
+
+  

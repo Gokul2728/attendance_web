@@ -1,0 +1,202 @@
+.dashboard-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.attendance-percentage-and-status {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.leave-details-s{
+    flex: 1;
+}
+@media (max-width:900px){
+    .attendance-percentage-and-status{
+        flex-direction: column;
+    }
+    .leave-details-s{
+        display: none;
+    }
+    
+}
+
+.dropdown{
+    display: flex;
+    gap: 10px;
+}
+.label-dropdown{
+    flex: 1;
+}
+
+.student-details-container {
+    background-color: var(--background-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    flex: 2;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.icons-flex{
+    display: flex;
+    flex-direction: column;
+}
+
+.attendance-percent-container {
+    flex: 4.5;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.attendance-summary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    height: 100%;
+}
+
+.summary-item {
+    background-color: var(--background-2);
+    padding: 7px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+}
+
+
+.attendance-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.summary-item:nth-child(4),
+.summary-item:nth-child(5) {
+    grid-column: span 1;
+}
+
+@media (max-width: 768px) {
+    .attendance-summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .att_det{
+        flex-direction: column;
+    }
+    .dropdown{
+        flex-direction: column;
+    }
+}
+.no-stu{
+    height: 70vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-content: center;
+    align-items: center;    
+}
+
+.leave-details {
+    flex: 1;
+    background-color: var(--background-2);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    max-height: 492px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.att_det_today {
+    flex: 1;
+    background-color: var(--background-2);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.att_det_others {
+    flex: 2;
+    background-color: var(--background-2);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+
+}
+
+.att_det {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.student-details {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    gap: 5px;
+    background-color: var(--background-1);
+    border-radius: 10px;
+}
+
+.detail-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-label {
+    font-weight: 600;
+    color: var(--text);
+}
+
+h5,
+h4 {
+    margin: 10px;
+}
+
+.att_table{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.check-in{
+    background-color: rgba(240, 213, 213, 0.341);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 100%;
+    
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
